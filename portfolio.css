@@ -1,0 +1,90 @@
+<style>
+  html {}
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+  body {
+    background-color: #EAEAEA;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .container, .home-link {
+      max-width: 100%;
+      margin: auto;
+      position: relative;
+      height: 1em;
+      padding: 0 .75em;
+      vertical-align: baseline;
+  }
+
+  .navigation-container, .nav {
+    max-width: 100%;
+    display: block
+    padding: 0 .75em;
+    height: 1em;
+    position: relative;
+    margin: auto;
+    vertical-align: baseline;
+  }
+  ul, h1 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+
+  }
+
+  li, h1 {
+      float: left;
+      position: relative;
+      vertical-align: baseline;
+  }
+
+  li a, h1 {
+      position: relative;
+      display: block;
+      color: #333333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      vertical-align: baseline;
+  }
+
+  li a:hover, h1:hover {
+      color: #437C90;
+  }
+
+  #site-description {
+    position: fixed;
+    display: block;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    bottom: 50%;
+    z-index: 900;
+    padding: 1.5220700152% 0;
+    margin-bottom: -4.5em;
+    vertical-align: baseline;
+  }
+
+  .descrizione {
+      box-sizing: border-box;
+      float: left;
+      transform: translateX(-50%);
+      width: auto;
+      padding: 0!important;
+      white-space: nowrap;
+      vertical-align: baseline;
+  }
+
+  .body-container {
+    position: relative;
+    width: 80%
+    padding: 2em;
+    margin: 5em;
+    margin-left: 10em;
+  }
+
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  </style>
